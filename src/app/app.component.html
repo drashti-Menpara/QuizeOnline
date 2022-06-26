@@ -1,0 +1,60 @@
+<html> 
+  <div>
+    <h3>Questions<b></b></h3>
+    <!-- <div *ngFor="let question of questionList;let i = index">
+       <strong></strong>
+       <ng-container *ngFor="let q1 of question">
+            {{q1.quesntionId}}
+            <input type="radio" id="html" name="fav_language" value="HTML">
+              <label for="html">HTML</label><br>
+              <input type="radio" id="css" name="fav_language" value="CSS">
+              <label for="css">CSS</label><br>
+              <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+              <label for="javascript">JavaScript</label>
+      </ng-container>
+     
+    </div> -->
+    <div>
+      <table>
+          <h4>which language is server side?</h4>
+          <tr>
+            <input type="radio"  name="questiongrp" value="HTML">
+            <label>HTML</label><br>
+          </tr>
+          <tr>
+            <input type="radio" name="questiongrp" value="CSS">
+              <label>CSS</label><br>
+          </tr>
+          <tr>
+            <input type="radio" name="questiongrp" value="JavaScript">
+              <label>JavaScript</label><br>
+          </tr>
+          <tr>
+            <input type="radio"  name="questiongrp" value="C#">
+           <label>C#</label><br>
+          </tr>
+          <tr>
+            <td><br><button type="button" class="btn btn-primary" onclick="getprev('1','question.answer')">Next</button></td>
+            <td><br><button type="button" class="btn btn-primary" onclick="getnext('2','question.answer')">Previous</button></td>
+          </tr>
+      </table>
+      <div>
+      </div>
+    </div>
+
+    <!-- <div>
+      <p>1/0 = ?</p>
+      <div>
+        <input type="radio"  name="questiongrp" value="HTML">
+        <label>0</label><br>
+        <input type="radio" name="questiongrp" value="CSS">
+        <label>1</label><br>
+        <input type="radio" name="questiongrp" value="JavaScript">
+        <label>none</label><br>
+        <input type="radio"  name="questiongrp" value="C#">
+        <label>Undefien</label><br>
+      </div>
+    </div> -->
+    
+  </div>
+</html>
